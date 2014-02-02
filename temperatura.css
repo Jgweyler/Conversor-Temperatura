@@ -1,0 +1,10 @@
+h1          {text-align: center; text-decoration: underline;} 
+#contenedor	{ vertical-align: top; text-align: center; font-size: large;} 
+#salida 	{color: red; font-weight: bold;font-size: large;			}
+#enlace     {text-align: center;}
+input 		{text-align: right;border: none; font-size: large;			}
+body
+{
+	background-color: #b0c4de; /* El color de fondo de la página será azul*/
+	font-size: large; /*Cambia el tamaño de fuente*/
+}

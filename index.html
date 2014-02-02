@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<!--Juego de carácteres utf-8-->
+
+		<title>Conversor de temperatura</title>
+		<link href="temperatura.css" rel="stylesheet" type="text/css">
+		<!--Indica que se usará una hoja de estilos(.css), que en este caso hemos llamado "temperatura.css"-->
+		<!-- Estos ficheros se emplean para modificar la apariencia de la página-->
+
+		<script type="text/javascript" src="temperatura.js"></script>
+		<!--Carga el fichero temperatura.js-->
+	</head>
+	<body>
+		<h1>Conversor de Temperatura</h1>
+		<div id="contenedor"> <!-- "Contenedor" que contendrá tanto la entrada como salida del programa-->
+			<p> Temperatura  (Ejemplos: 32F, 45C, -2.5f): </p>
+			<input id="escritura" onchange="calcularTemp();" placeholder="35F" size="50">
+			<!-- Si se modifica el campo de escritura, se llama a la función calcularTemp() definida en temperatura.js-->
+			<p> Temperatura Convertida:</p>
+			<spam class="output" id="salida"></spam> <!--Aquí se mostrará el resultado-->
+		</div> <!--fin del contenedor-->
+		<div id="enlace">
+			<a align="center" href="test/index.html"> Pulse aquí para ver las pruebas </a>
+		</div>
+	</body>
+</html>
